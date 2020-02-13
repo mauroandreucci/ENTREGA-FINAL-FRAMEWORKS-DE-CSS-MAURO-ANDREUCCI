@@ -1,0 +1,184 @@
+.body{
+    background-color: #7C252D;
+    height:100%;
+    margin-left: 8.2%;
+}
+
+/*------------ HEDER NAVBAR ------------*/
+.navbar-div{
+    border-radius: 2px 2px 2px 2px;
+    height: 180px;
+    background-color: #222222;
+}
+
+/*------------ HEDER LOGO ------------*/
+.logo-img{
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+
+/*------------ HEDER BARRA-BOTONES ------------*/
+.barra-botones{
+    height:  100px;
+    background-color: cornsilk;
+    opacity: 0.8;
+
+}
+
+/*------------ HEDER ICONOS BARRA-BOTONES ------------*/
+.icono-redes{
+    width: 45px;
+    height: 45px;
+    color: black;
+    float: right;
+    margin-top: 100px;
+    margin-right: 1.5%;
+}
+
+/*------------ HEDER ICONOS:HOVER BARRA-BOTONES ------------*/
+.boton-link-redes:hover {
+    background: aliceblue !important;
+    cursor:pointer;
+}
+
+/*------------ BOTONES LINK------------*/
+.boton-link{
+    margin-top:25px ;
+}
+
+/*------------ BOTONES LINK:HOVER ------------*/
+.boton-link:hover {
+    background: #7C252D !important;
+    cursor:pointer;
+}
+
+/*------------ CONTENEDOR PRINCIPAL------------*/
+.contenedor-ppl{
+    background-color: aliceblue;
+    height: 100%;
+    border-radius: 8px 0px 0px 8px;
+    margin-bottom: 100px;
+    opacity: 0.9;
+}
+
+/*------------ CONTENEDOR 1------------*/
+.contendor-ppl-Interno {
+    margin-top: 51px;  
+}
+
+/*------------ CONTENEDOR  IMAGEN------------*/
+.imagen-ppl{
+    height: 100% ;
+    width:100% ;
+    margin-top: 20px;
+    border-radius: 8px ; 
+}
+
+/*------------ FORM TEXT-AREA------------*/
+.form-control{
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+}
+
+/*------------ CONTENEDOR TEXT-AREA------------*/
+.contenedor-text-area{
+    margin-top: 30px;
+}
+
+/*------------ CONTENEDOR PPL TEXTO------------*/
+.text-descripting{
+    font-size: 17px;
+}
+
+/*------------ CONTENEDOR BUSCADOR------------*/
+.contenedor-buscador{
+    background: #222222;
+    height:100%;
+    border-radius: 0px 8px 8px 0px;
+}
+
+/*------------ BARRA BUSCADOR------------*/
+.barra-buscador{
+    margin-top: 10px;
+    height: 70px;
+    padding-top: 25px;
+    text-align: center; 
+}
+
+/*------------ BUSCADOR LISTA TEMAS ------------*/
+.lista-temas{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+/*------------ BUSCADOR ITEM DE LISTA------------*/
+.item-lista{
+    padding-bottom: 16.3px;
+    margin-bottom: 6px;
+    border-radius: 2px 2px 1px 1px;
+    opacity: 0.8;
+    font-size: 15.5px;
+}
+
+@media (max-width: 1200px) {
+    .body{
+        background-color:#7C252D ;
+        height: 800px;
+        margin-left: 0%;  
+    }
+
+    /*------------ HEDER NAVBAR ------------*/
+    .navbar-div{
+        border-radius: 2px 2px 2px 2px;
+        height: 320px;
+        background-color: #222222;
+    }
+    
+    /*------------ HEDER LOGO ------------*/
+    .logo-img{
+        width: 120px;
+        height: 120px;
+        margin-top: 20px;
+        margin-left: 2%;
+    }
+    
+    /*------------ HEDER BARRA-BOTONES ------------*/
+    .icono-redes{
+        width: 45px;
+        height: 45px;
+        color: black;
+        margin-top: 100px;
+        margin-right: 1.5%;
+    }
+
+    /*------------ CONTENEDOR REDES ------------*/
+    .contenedor-redes {
+        text-align: center !important; 
+    }
+    
+    /*------------ HEDER BARRA-BOTONES ------------*/
+    .barra-botones{
+        height:  100%;
+        background-color: cornsilk;
+        opacity: 0.8;
+        padding-bottom: 20px;
+    }
+    
+    /*------------ BOTONES LINK------------*/
+    .boton-link{
+        padding-top: 20px;
+    }
+
+    /*------------ BUSCADOR ITEM DE LISTA------------*/
+    .item-lista{
+        padding-bottom: 16.3px;
+        margin-bottom: 6px;
+        border-radius: 2px 2px 1px 1px;
+        opacity: 0.8;
+        font-size: 15.5px;
+        text-align: center;
+    }
+}

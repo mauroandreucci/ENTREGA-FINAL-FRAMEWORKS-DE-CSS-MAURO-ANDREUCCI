@@ -1,0 +1,264 @@
+body{
+    background-image: url(Media/background-2.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+/*------------ CLASE PARA TEXT HEADER ------------*/
+.text-encabezado{
+    color: aliceblue;
+    font-family: Courier, monospace;
+}
+
+/*------------ CLASE PARA ROW HEADER ------------*/
+.fila-header{
+    margin-bottom:0.5rem;
+    margin-bottom: 5rem; 
+}
+
+/*------------ CLASE PARA LOGO DE HEADER -----------*/
+.logo-encabezado{
+    width: 150px;
+    height: 150px;
+    margin-top:4rem;
+    margin-left: 1rem;
+    border-radius: 8px 8px 8px 8px;
+}
+
+/*------------ CLASE PARA BOTONES HEADER ------------*/
+.contenedor-botones{
+    margin-top: 4rem;
+}
+
+/*------------ CLASE PARA COLUMNA DE REDES ------------*/
+.columna-redes{
+    margin-top: 4rem;
+  padding-right: 0rem !important;
+  padding-left: 2rem !important;
+    
+}
+
+/*------------ CLASE PARA ICONOS DE REDES ------------*/
+.iconos-redes{
+    width: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+/*------------ CLASE PARA BORDER IMG ------------*/
+img{
+    border-radius: 4px 4px 4px 4px;
+}
+
+/*------------ CLASE PARA COLUMNA DERECHA  ------------*/
+.img-col-derecha{
+    max-height: 230px !important;
+}
+
+/*------------ CLASE PARA CONTENEDOR NOTA------------*/
+.contenedor-nota{
+    opacity: 0.8;
+    border-radius: 4px 4px 4px 4px;
+}
+
+/*------------ CLASE PARA IMG NOTA ------------*/
+.img-nota{
+    margin-top: 2rem;
+    float: left;
+    max-width: 260px !important;
+
+}
+
+/*------------ CLASE PARA TITULO DE NOTA ------------*/
+.titulo-nota{
+    float: right;
+    margin-top: 2rem;
+    padding-right: 2rem;  
+}
+
+/*------------ CLASE PARA CHIPS ICO NOTA ------------*/
+.ico-chips{
+    width: 15px;
+    height: 15px;
+    margin-left: 0.5rem !important;
+}
+
+/*------------ CLASE PARA CONTENEDOR PERFIL ------------*/
+.contenedor-perfil{
+   margin-left: 3.5rem !important;
+   padding-left: 0px;
+   border-radius: 4px 4px 4px 4px;
+}
+
+/*------------ CLASE PARA CONTENEDOR IMG PERFIL ------------*/
+.contenedor-img-perfil{
+    display: block;
+}
+
+/*------------ CLASE PARA IMG PERFIL ------------*/
+.img-perfil{
+    border-radius: 50%;
+    margin-top: 2rem;
+    width: 100%;
+    align-items: center;   
+}
+
+/*------------ CLASE PARA TEXTO DE PERFIL ------------*/
+.text-perfil{
+    text-align: center;
+    padding-left: 1rem;
+    padding-right:1rem; 
+}
+
+/*------------ CLASE PARA CONTENEDOR FOMRMULARIO ------------*/
+.contenedor-form{
+    margin-top: 2rem;
+    border-radius: 4px 4px 4px 4px;
+    opacity: 0.8;
+    color:black;
+}
+
+/*------------ CLASE PARA BOTON FORMULARIO ------------*/
+.boton-enviar-form{
+    float: right;
+    margin-bottom: 2rem;
+}
+
+
+
+
+@media (max-width: 992px) {
+
+    body{
+        background-image: url(Media/background-2.jpg);
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+    /*------------ CLASE PARA TEXT HEADER ------------*/
+    .text-encabezado{
+        color: aliceblue;
+        font-family: Courier, monospace;
+        margin-left: -5rem !important;
+    }
+    
+    /*------------ CLASE PARA ROW HEADER ------------*/
+    .fila-header{
+        margin-bottom:0.5rem; 
+        margin-bottom: 5rem;
+    }
+    
+    /*------------ CLASE PARA LOGO DE HEADER -----------*/
+    .logo-encabezado{
+        width: 150px;
+        height: 150px;
+        margin-top:4rem;
+        margin-left: -1rem !important;
+        border-radius: 8px 8px 8px 8px;
+    }
+    
+    /*------------ CLASE PARA BOTONES HEADER ------------*/
+    .contenedor-botones{
+        margin-top: 4rem;
+    }
+
+    /*------------ CLASE PARA COLUMNA DE REDES ------------*/
+    .columna-redes{
+      margin-top: 4rem;
+      padding-right: 0rem !important;
+      padding-left: 2rem !important;   
+    }
+    
+    /*------------ CLASE PARA ICONOS DE REDES ------------*/
+    .iconos-redes{
+        width: 3.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    /*------------ CLASE PARA BORDER IMG ------------*/
+    img{
+        border-radius: 4px 4px 4px 4px;
+    }
+    
+    /*------------ CLASE PARA COLUMNA DERECHA  ------------*/
+    .img-col-derecha{
+        max-height: 230px !important;
+    }
+
+    /*------------ CLASE PARA IMG VERTICAL------------*/
+    .contenedor-img-vertical{
+        margin-bottom: 2rem !important;
+    }
+    
+    /*------------ CLASE PARA CONTENEDOR NOTA------------*/
+    .contenedor-nota{
+        opacity: 0.8;
+        border-radius: 4px 4px 4px 4px;
+    }
+
+    /*------------ CLASE PARA IMG NOTA ------------*/
+    .img-nota{
+        text-align: center;
+        margin-top: 2rem;
+        max-width: 260px !important;
+    }
+
+    /*------------ CLASE PARA TITULO DE NOTA ------------*/
+    .titulo-nota{
+        padding: auto !important;
+    }
+    
+    /*------------ CLASE PARA CHIPS ICO NOTA ------------*/
+    .ico-chips{
+        width: 15px;
+        height: 15px;
+        margin-left: 0.5rem !important;
+    }
+    
+    /*------------ CLASE PARA CONTENEDOR PERFIL ------------*/
+    .contenedor-perfil{
+       margin-top: 4rem !important;
+       margin-left:0px !important;
+       padding-left: 0px;  
+    }
+
+    /*------------ CLASE PARA CONTENEDOR IMG PERFIL ------------*/
+    .contenedor-img-perfil{
+        align-items: center;
+        display: block;
+    }
+
+    /*------------ CLASE PARA IMG PERFIL ------------*/
+    .img-perfil{
+        border-radius: 50%;
+        margin-top: 2rem;
+        width: 220px !important; 
+        display: block;
+        margin: 0 auto;
+    }
+
+    /*------------ CLASE PARA TEXTO DE PERFIL ------------*/
+    .text-perfil{
+        text-align: center;
+        padding-left: 1rem;
+        padding-right:1rem; 
+    }
+    
+    /*------------ CLASE PARA CONTENEDOR FOMRMULARIO ------------*/
+    .contenedor-form{
+        margin-top: 2rem;
+        border-radius: 4px 4px 4px 4px;
+        opacity: 0.8;
+        color:black;
+    
+    }
+
+    /*------------ CLASE PARA BOTON FORMULARIO ------------*/
+    .boton-enviar-form{
+        float: right;
+        margin-bottom: 2rem;
+    }
+    
+}

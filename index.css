@@ -1,0 +1,81 @@
+body{
+    height: 1200px;
+    background-image: url(MEDIA/Imagenes/Background_kitchen_fhd.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*------------ CLASE PARA ENCABEZADO ------------*/
+.encabezado{
+    height: 160px;
+    background-color: rgb(60, 60, 148,0.6);
+    padding-top: 40px;
+    margin-bottom: 1rem;
+    border-radius: 0px 0px 8px 8px;
+}
+
+/*------------ CONTENEDOR GENERAL  ------------*/
+.contenedor-general{
+    border-radius: 8px 8px 8px 8px;
+    background:rgba(187, 157, 216, 0.65); 
+    background-attachment: scroll;
+    background-position: center center;
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+/*------------ CONTENEDOR SECUNDARIO IZQUIERDA ------------*/
+.contenedor-izquierda{
+    height: 100%;
+    background-color: rgba(255, 248, 220, 0.4);
+    padding-top: 3rem; 
+}
+
+/*------------ CONTENEDOR SECUNDARIO IZQUIERDA contenedor botones ------------*/
+.links-button{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+/*------------ CONTENEDOR SECUNDARIO IZQUIERDA personalizacion boton ------------*/
+.boton-personalizado{
+    border-radius: 8px 8px 8px 8px;
+}
+
+
+/*------------ CONTENEDOR SECUNDARIO DERECHA ------------*/
+.contenedor-derecha{
+    padding-left: 2rem; 
+}
+
+/*------------ CONTENEDOR SECUNDARIO DERECHA text-description ------------*/
+.texto-descripcion{
+    font-size: 1.5rem;
+}
+
+/*------------ CONTENEDOR SECUNDARIO DERECHA text-area ------------*/
+.text-area{
+    margin-bottom: 2rem;
+    opacity: 0.8;
+ }
+
+/*------------ CONTENEDOR SECUNDARIO DERECHA texto comentarios ------------*/
+.text-comentarios{
+    border-radius: 8px 8px 8px 8px;
+}
+
+/*------------ CLASE PARA CALLOUT ------------*/
+.callout{
+    background: rgba(255, 248, 220, 0.6); ;
+}
+
+
+
+
+
+
+
+
+
+
